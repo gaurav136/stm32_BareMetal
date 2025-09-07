@@ -1,0 +1,31 @@
+# Build artifacts
+Debug/
+Release/
+build/
+
+# IDE specific files
+#.mxproject
+#.project
+#.cproject
+.settings/
+.metadata/
+.toolchain-version.txt
+
+# CubeMX generated folders (if not part of the core source)
+# Uncomment if you want to ignore these and regenerate them on other machines
+# /Core/
+# /Drivers/
+# /Middlewares/
+
+# Local launch configurations
+*.launch
+
+# SW4STM32 specific (if used in conjunction with CubeIDE)
+.project.bak
+.cproject.bak
+
+# User-specific files or temporary files
+*~
+*.bak
+*.swp
+*.tmp
