@@ -15,12 +15,8 @@ int main()
 
 	while(1)
 	{
-		GPIOC -> BSRR = LED1;
+		GPIOC -> ODR ^= LED1;
 
-		for(uint32_t i = 0; i< 1000000; i++){};
-
-		GPIOC -> BSRR = (1U << 29);
-
-		for(uint32_t i = 0; i< 1000000; i++){};
+		for(uint32_t i = 0; i< 100000; i++){};
 	}
 }
